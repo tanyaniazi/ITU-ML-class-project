@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #import Telco dataset and store it in a dataframe
-df = pd.read_csv("/Users/raha/Downloads/Telco(2).csv")
+df = pd.read_csv("/Users/Downloads/Telco(2).csv")
 
 
 #dropping the unnecessary columns 
