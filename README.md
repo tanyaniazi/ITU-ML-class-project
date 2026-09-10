@@ -4,7 +4,7 @@
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-F7931E.svg?logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg?logo=jupyter&logoColor=white)](https://jupyter.org/)
 
-An end-to-end supervised machine learning benchmark on the **Telco Customer Churn** dataset, developed for the Course Business Intelligence and Machine Learning Applications (END574E) at Istanbul Technical University (ITU) during MSc program. 
+An end-to-end supervised machine learning benchmark on the **Telco Customer Churn** dataset, developed for the Graduate Machine Learning curriculum at Istanbul Technical University (ITU). 
 
 The project evaluates binary classification of subscriber churn (`Churn: Yes/No`)[cite: 1, 2] through custom class-conditional data cleaning[cite: 1], unsupervised $K$-Means cluster feature augmentation, 5-fold hyperparameter grid searches, and a 10-fold stratified cross-validation benchmark comparing four distinct model architectures[cite: 2]: **Gradient Boosting**, **Random Forest**, **Support Vector Classifier (RBF Kernel)**, and a **5-Layer Deep Multi-Layer Perceptron (MLP)**[cite: 2].
 
@@ -72,6 +72,6 @@ Mean evaluation metrics aggregated across all 10 folds[cite: 2]:
 ## 📁 Repository Structure
 
 ```text
-├── cleaning_data.py           # Data preprocessing, anomaly handling, and class-conditional mean imputation
-├── ML_HW.ipynb                # Complete benchmarking pipeline: K-Means, GridSearch, and 10-fold CV
-└── README.md                  # Project overview and experimental benchmark results
+├── cleaning_data.py             # Data preprocessing, anomaly handling, and class-conditional mean imputation
+├── telco_churn_benchmark.ipynb  # Complete benchmarking pipeline: K-Means, GridSearch, and 10-fold CV
+└── README.md                    # Project overview and experimental benchmark results
